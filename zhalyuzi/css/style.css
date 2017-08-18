@@ -1,0 +1,1182 @@
+/*=============================    ШРИФТЫ    ==========================*/
+@font-face {
+  font-family: 'PFDinTextCondProBold';
+  src: url('fonts/PFDinTextCondProBold.eot');
+  src: url('fonts/PFDinTextCondProBold.eot') format('embedded-opentype'), url('fonts/PFDinTextCondProBold.woff2') format('woff2'), url('fonts/PFDinTextCondProBold.woff') format('woff'), url('fonts/PFDinTextCondProBold.ttf') format('truetype'), url('fonts/PFDinTextCondProBold.svg#PFDinTextCondProBold') format('svg');
+}
+@font-face {
+  font-family: 'PFDinTextCondProLight';
+  src: url('fonts/PFDinTextCondProLight.eot');
+  src: url('fonts/PFDinTextCondProLight.eot') format('embedded-opentype'), url('fonts/PFDinTextCondProLight.woff2') format('woff2'), url('fonts/PFDinTextCondProLight.woff') format('woff'), url('fonts/PFDinTextCondProLight.ttf') format('truetype'), url('fonts/PFDinTextCondProLight.svg#PFDinTextCondProLight') format('svg');
+}
+@font-face {
+  font-family: 'PFDinTextCondProMedium';
+  src: url('fonts/PFDinTextCondProMedium.eot');
+  src: url('fonts/PFDinTextCondProMedium.eot') format('embedded-opentype'), url('fonts/PFDinTextCondProMedium.woff2') format('woff2'), url('fonts/PFDinTextCondProMedium.woff') format('woff'), url('fonts/PFDinTextCondProMedium.ttf') format('truetype'), url('fonts/PFDinTextCondProMedium.svg#PFDinTextCondProMedium') format('svg');
+}
+.bold {
+  font-family: 'PFDinTextCondProBold';
+}
+.med {
+  font-family: 'PFDinTextCondProMedium';
+}
+.light {
+  font-family: 'PFDinTextCondProLight';
+}
+/*==========================   ОБЩИЕ НАСТРОЙКИ    ========================*/
+a:hover,
+a:focus,
+a:active,
+a:visited {
+  text-decoration: none;
+}
+.section_header h2 {
+  text-transform: uppercase;
+  color: #666666;
+  font-family: 'PFDinTextCondProBold';
+}
+button:focus {
+  outline: none;
+}
+/*=============================    ШАПКА   ==========================*/
+header {
+  color: #666666;
+  padding-top: 25px;
+  height: 110px;
+}
+header .descript h4 {
+  font-family: 'PFDinTextCondProMedium';
+  text-transform: uppercase;
+}
+header .descript h5 {
+  font-family: 'PFDinTextCondProLight';
+  font-size: 16px;
+}
+header .phone_number h5 {
+  font-family: 'PFDinTextCondProLight';
+}
+header .phone_number h3 {
+  margin-top: 5px;
+}
+header .phone_number a {
+  display: inline-block;
+  font-family: 'PFDinTextCondProMedium';
+  color: #666666;
+}
+header .phone_number a:hover {
+  text-decoration: none;
+}
+header .phone_number a:visited {
+  color: #666666;
+}
+header .phone_number a:before {
+  margin-right: 5px;
+  margin-top: -5px;
+  vertical-align: middle;
+  content: '';
+  width: 20px;
+  height: 20px;
+  background: url(../img/phone_icon.png) no-repeat center center;
+  display: inline-block;
+}
+/*==========================    НАВИГАЦИЯ    =======================*/
+nav {
+  background: #fafdfa;
+  top: 110px;
+  /*высота шапки в пикселях*/
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+  height: 60px;
+}
+nav ul.list-inline a {
+  text-transform: uppercase;
+  display: inline-block;
+  color: #666666;
+  padding: 20px 10px;
+  font-family: 'PFDinTextCondProLight';
+  -moz-transition: all 0.2s 0.02s ease;
+  -o-transition: all 0.2s 0.02s ease;
+  -webkit-transition: all 0.2s 0.02s ease;
+  color: #222;
+}
+nav ul.list-inline a:hover {
+  color: #666666;
+  background: #67cc67;
+}
+nav .list-inline {
+  margin-bottom: 0;
+}
+/*==========================   ГЛАВНОЕ МЕНЮ   =======================*/
+section#main {
+  background: url(../img/main_bg_1920.jpg) no-repeat center center;
+  background-size: cover;
+}
+section#main .main_header h1 {
+  font-size: 38px;
+  line-height: 60px;
+  font-family: 'PFDinTextCondProBold';
+  padding-top: 100px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+section#main .main_header h1 span {
+  background: #67cc67;
+  padding: 5px;
+  color: #ffffff;
+}
+section#main h3 {
+  text-transform: uppercase;
+  color: #666666;
+  font-family: 'PFDinTextCondProBold';
+  padding-top: 90px;
+}
+section#main span {
+  color: #ff9933;
+}
+section#main .main_buttons {
+  margin-top: 7px;
+  margin-bottom: 100px;
+}
+section#main .main_buttons button#get_measurer {
+  font-family: 'PFDinTextCondProBold';
+  border: none;
+  text-transform: uppercase;
+  font-size: 20px;
+  background-color: #ff9933;
+  padding: 17px 30px;
+  color: white;
+}
+section#main .main_buttons button#get_measurer:hover {
+  background-color: #f8820c;
+}
+section#main .main_buttons button#get_types {
+  border: 2px solid #ff9933;
+  background-color: transparent;
+  padding: 15px 33px;
+  color: #ff9933;
+  font-family: 'PFDinTextCondProBold';
+  text-transform: uppercase;
+  font-size: 20px;
+  margin-left: 20px;
+}
+section#main .main_buttons button#get_types:hover {
+  background-color: rgba(255, 255, 255, 0.7);
+}
+/*===========================  ВИДЫ ЖАЛЮЗИ    =======================*/
+section#types {
+  padding-top: 50px;
+}
+section#types .section_header {
+  margin-bottom: 50px;
+}
+section#types h4 {
+  text-transform: uppercase;
+  font-family: 'PFDinTextCondProMedium';
+  color: #666666;
+  margin-top: 25px;
+}
+section#types button.more_btn {
+  font-family: 'PFDinTextCondProBold';
+  border: 2px solid #66cc66;
+  background-color: transparent;
+  color: #66cc66;
+  padding: 10px 22px;
+  text-transform: uppercase;
+  margin-right: 5px;
+  -moz-transition: all 0.2s 0.02s ease;
+  -o-transition: all 0.2s 0.02s ease;
+  -webkit-transition: all 0.2s 0.02s ease;
+}
+section#types button.more_btn:hover {
+  background: #66cc66;
+  color: white;
+}
+section#types button.offer_btn {
+  font-family: 'PFDinTextCondProBold';
+  border: 2px solid #66cc66;
+  background-color: #66cc66;
+  color: white;
+  padding: 10px 27px;
+  text-transform: uppercase;
+  -moz-transition: all 0.2s 0.02s ease;
+  -o-transition: all 0.2s 0.02s ease;
+  -webkit-transition: all 0.2s 0.02s ease;
+}
+section#types button.offer_btn:hover {
+  background: transparent;
+  color: #66cc66;
+}
+section#types .card {
+  padding: 8px;
+  border: 2px solid transparent;
+}
+section#types .card:hover {
+  background-color: #fafdfa;
+  border: 2px solid #b2e5b2;
+}
+/*================ БЕСПЛАТНАЯ КОНСУЛЬТАЦИЯ  =====================*/
+section#help {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+section#help h3 {
+  color: #ff9933;
+  font-family: 'PFDinTextCondProBold';
+  text-transform: uppercase;
+}
+section#help p {
+  color: #666666;
+  font-family: 'PFDinTextCondProLight';
+  font-size: 18px;
+}
+section#help img {
+  margin-top: 22px;
+}
+section#help .help_btn {
+  background-color: transparent;
+  border: 2px solid #ff9933;
+  font-family: 'PFDinTextCondProBold';
+  padding: 17px 30px;
+  text-transform: uppercase;
+  color: #ff9933;
+  font-size: 25px;
+}
+section#help .help_btn:hover {
+  background-color: #ff9933;
+  color: white;
+}
+/*===========================  ПОРТФОЛИО    =======================*/
+section#portfolio .section_header h2 {
+  margin-bottom: 40px;
+}
+section#portfolio .fotorama {
+  width: 900px;
+  margin: 0 auto;
+}
+/*==========================   АКЦИЯ   ========================*/
+section#offeer {
+  padding-top: 70px;
+}
+section#offeer h4 {
+  text-transform: uppercase;
+  font-family: 'PFDinTextCondProBold';
+  color: #ff9933;
+}
+section#offeer h3 {
+  text-transform: uppercase;
+  font-family: 'PFDinTextCondProBold';
+  color: #ff9933;
+}
+section#offeer p {
+  font-family: 'PFDinTextCondProLight';
+  color: #666666;
+  padding-bottom: 15px;
+  font-size: 22px;
+}
+section#offeer input[name="name"] {
+  font-size: 20px;
+  background: url(../img/name_input.png) no-repeat center left 10px;
+  padding: 25px;
+  border-radius: 0;
+  padding-left: 30px;
+  border: 1px solid #cccccc;
+  font-family: 'PFDinTextCondProLight';
+  opacity: 0.5;
+}
+section#offeer input[name="name"]:hover,
+section#offeer input[name="name"]:focus {
+  opacity: 1;
+}
+section#offeer input[name="phone"] {
+  font-size: 20px;
+  background: url(../img/phone_input.png) no-repeat center left 13px;
+  padding: 25px;
+  border-radius: 0;
+  padding-left: 30px;
+  border: 1px solid #cccccc;
+  font-family: 'PFDinTextCondProLight';
+  opacity: 0.5;
+}
+section#offeer input[name="phone"]:hover,
+section#offeer input[name="phone"]:focus {
+  opacity: 1;
+}
+section#offeer button[type="submit"] {
+  text-transform: uppercase;
+  font-family: 'PFDinTextCondProBold';
+  font-size: 20px;
+  background-color: #ff9933;
+  color: white;
+  border: 2px solid #ff9933;
+  padding: 10px 45px;
+}
+/*===========================  ОТЗЫВЫ    =======================*/
+section#feedback {
+  margin-bottom: 50px;
+  padding-bottom: 50px;
+  background-color: #fcfcfc;
+}
+section#feedback .carousel-indicators {
+  bottom: -50px;
+}
+section#feedback .carousel-indicators .active {
+  background-color: #66cc66;
+}
+section#feedback .carousel-indicators li {
+  background-color: #cccccc;
+}
+section#feedback .section_header h2 {
+  margin-bottom: 50px;
+}
+section#feedback .item {
+  height: 350px;
+  background-color: #f8f8f8;
+  padding: 20px;
+}
+section#feedback .item h5 {
+  margin-top: 10px;
+  color: #666666;
+  font-family: 'PFDinTextCondProMedium';
+  font-size: 20px;
+}
+section#feedback .item a {
+  font-family: 'PFDinTextCondProLight';
+  font-size: 17px;
+}
+section#feedback .item p {
+  font-family: 'PFDinTextCondProLight';
+  font-size: 17px;
+}
+section#feedback .item .audio {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+/*==========================   ФУТЕР    ========================*/
+footer {
+  background-color: #666666;
+  padding-top: 40px;
+  padding-bottom: 10px;
+  color: white;
+}
+footer button {
+  -moz-transition: all 0.2s 0.02s ease;
+  -o-transition: all 0.2s 0.02s ease;
+  -webkit-transition: all 0.2s 0.02s ease;
+  margin-left: 10px;
+  border: 2px solid white;
+  background: transparent;
+  font-family: 'PFDinTextCondProBold';
+  text-transform: uppercase;
+  padding: 12px 35px;
+  font-size: 20px;
+}
+footer button:hover {
+  background-color: white;
+  color: #666666;
+}
+footer .social {
+  margin-top: 20px;
+}
+footer .icon_img {
+  display: inline-block;
+  background-color: #cccccc;
+  padding: 10px;
+  border-radius: 50%;
+  width: 39px;
+  height: 39px;
+  padding-top: 8px;
+  vertical-align: super;
+  margin-right: 5px;
+}
+footer .icon_img:hover {
+  background-color: #fff;
+}
+footer h2 {
+  margin-bottom: 20px;
+  font-family: 'PFDinTextCondProBold';
+  text-transform: uppercase;
+  margin-left: -15px;
+}
+footer address #kazan {
+  font-size: 20px;
+}
+footer address p {
+  font-family: 'PFDinTextCondProLight';
+  margin-bottom: 0;
+}
+footer address #address {
+  text-transform: uppercase;
+  color: #b4b4b4;
+}
+footer address #address:before {
+  content: '';
+  background: url(../img/map_marker.png) no-repeat center center;
+  display: inline-block;
+  width: 11px;
+  height: 11px;
+}
+footer .phone_footer p {
+  font-family: 'PFDinTextCondProLight';
+  margin-bottom: 0;
+}
+footer .phone_footer #number {
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+footer .phone_footer #phone_footer {
+  text-transform: uppercase;
+  color: #b4b4b4;
+}
+footer .phone_footer #phone_footer:before {
+  content: '';
+  background: url(../img/phone_marker.png) no-repeat center center;
+  display: inline-block;
+  width: 11px;
+  height: 11px;
+}
+footer .details h5 {
+  font-family: 'PFDinTextCondProMedium';
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+footer .details p {
+  font-family: 'PFDinTextCondProLight';
+  font-size: 17px;
+  color: #b4b4b4;
+}
+footer .policy {
+  font-family: 'PFDinTextCondProLight';
+  color: #b4b4b4;
+}
+footer .policy a {
+  font-size: 20px;
+  border-bottom: 1px solid #cccccc;
+  color: #b4b4b4;
+}
+footer .policy p {
+  font-size: 15px;
+}
+footer .saigushev {
+  font-family: 'PFDinTextCondProBold';
+  font-size: 20px;
+}
+footer .saigushev h4 {
+  text-transform: uppercase;
+}
+footer .saigushev a {
+  color: #b4b4b4;
+}
+footer .bottom_footer {
+  margin-top: 50px;
+}
+/*=========================  ВСПЛЫВАЮЩИЕ ОКНА  ========================*/
+.modal-dialog {
+  margin-top: 10%;
+}
+.header_modal h4 {
+  color: #666666;
+  text-transform: uppercase;
+  font-family: 'PFDinTextCondProBold';
+}
+.modal-header {
+  border-bottom: none;
+  margin-top: -40px;
+}
+.modal-header .close {
+  text-shadow: none;
+  color: #fff;
+  opacity: 0.9;
+  margin-right: -30px;
+}
+.modal-content {
+  border-radius: 0;
+}
+.modal-content input[name="name"] {
+  margin-top: 15px;
+  font-size: 20px;
+  background: url(../img/name_input.png) no-repeat center left 10px;
+  padding: 25px;
+  border-radius: 0;
+  padding-left: 30px;
+  border: 1px solid #cccccc;
+  font-family: 'PFDinTextCondProLight';
+  opacity: 0.5;
+}
+.modal-content input[name="name"]:hover,
+.modal-content input[name="name"]:focus {
+  opacity: 1;
+}
+.modal-content input[name="phone"] {
+  margin-top: 15px;
+  font-size: 20px;
+  background: url(../img/phone_input.png) no-repeat center left 13px;
+  padding: 25px;
+  border-radius: 0;
+  padding-left: 30px;
+  border: 1px solid #cccccc;
+  font-family: 'PFDinTextCondProLight';
+  opacity: 0.5;
+}
+.modal-content input[name="phone"]:hover,
+.modal-content input[name="phone"]:focus {
+  opacity: 1;
+}
+.modal-content p {
+  font-family: 'PFDinTextCondProLight';
+  font-size: 18px;
+}
+.modal-content h5 {
+  font-family: 'PFDinTextCondProBold';
+  font-size: 24px;
+  color: #ff9933;
+}
+.modal-content button[type="submit"] {
+  margin-top: 15px;
+  text-transform: uppercase;
+  font-family: 'PFDinTextCondProBold';
+  font-size: 20px;
+  background-color: #ff9933;
+  color: white;
+  border: 2px solid #ff9933;
+  padding: 10px 49px;
+}
+.header_modal_info h4 {
+  font-family: 'PFDinTextCondProBold';
+  text-transform: uppercase;
+  color: #666666;
+  margin-top: 0px;
+  margin-left: 20px;
+}
+.fotorama .fotorama__dot {
+  background: #cccccc ;
+  border: none;
+  width: 10px;
+  height: 10px;
+}
+.fotorama .fotorama__dot:hover,
+.fotorama .fotorama__dot:active,
+.fotorama .fotorama__dot:visited,
+.fotorama .fotorama__dot:focus,
+.fotorama .fotorama__dot:checked {
+  background: #66cc66;
+  width: 11px;
+  height: 11px;
+  color: #66cc66;
+}
+.fotorama__active .fotorama__dot {
+  background: #66cc66;
+  border: 5px solid #66cc66;
+  border-width: 5px;
+}
+.fotorama__nav__frame.fotorama__active .fotorama__dot {
+  width: 0 !important;
+  height: 0 !important;
+  border-width: 5px !important;
+}
+textarea {
+  margin-top: 15px;
+  font-size: 20px;
+  padding: 25px;
+  border-radius: 0;
+  padding-left: 30px;
+  border: 1px solid #cccccc;
+  font-family: 'PFDinTextCondProLight';
+  opacity: 0.5;
+}
+textarea:hover,
+textarea:focus {
+  opacity: 1;
+}
+.modal_title {
+  margin-top: 50px;
+  font-family: 'PFDinTextCondProMedium';
+  color: black;
+  text-transform: uppercase;
+}
+.policy_modal p {
+  font-family: 'PFDinTextCondProLight';
+  padding-left: 30px;
+  padding-right: 20px;
+}
+.policy_modal h4 {
+  padding-left: 55px;
+  padding-right: 20px;
+}
+.modal-footer {
+  font-family: 'PFDinTextCondProLight';
+}
+/*==========================   ШРИФТЫ    ========================*/
+/*==========================   ШРИФТЫ    ========================*/
+/*==========================   ШРИФТЫ    ========================*/
+/*==========================   ШРИФТЫ    ========================*/
+/*==========================   ШРИФТЫ    ========================*/
+/*==========================   АДАПТИВ   ========================*/
+.dropdown-menu li a {
+  font-family: 'PFDinTextCondProLight';
+}
+.dropdown-toggle {
+  border: 1px solid #000;
+  padding: 10px 15px;
+  margin-top: 10px;
+  border-radius: 5px;
+  color: #666;
+  margin-left: -15px;
+}
+.dropdown-toggle i {
+  font-size: 18px;
+  margin-top: 15px;
+  color: #666666;
+}
+@media (min-width: 0px) and (max-width: 320px) {
+  nav.visible-xs {
+    background-color: #f5f6f5;
+    height: 60px;
+    top: 0;
+  }
+  nav.visible-xs h3 {
+    font-family: 'PFDinTextCondProBold';
+    color: #666666;
+    font-size: 14px;
+    text-align: right;
+  }
+  nav.visible-xs h3 a {
+    color: #666666;
+  }
+  section#main .main_header h1 {
+    font-size: 16px;
+    line-height: 33px;
+    text-align: center;
+  }
+  section#main .main_header span {
+    padding: 15px;
+  }
+  section#main h3 {
+    text-align: center;
+    font-size: 15px;
+    padding-top: 30px;
+  }
+  section#main .main_buttons button {
+    margin: 0 auto;
+    display: block;
+  }
+  section#main .main_buttons button#get_measurer {
+    padding: 10px 15px;
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+  section#main .main_buttons button#get_types {
+    padding: 10px 23px;
+    font-size: 12px;
+    margin: 0 auto;
+    display: block;
+  }
+  section#types button.more_btn {
+    margin-right: 0;
+    margin-bottom: 5px;
+  }
+  section#types button.offer_btn {
+    padding: 10px 26px;
+  }
+  section#help h3 {
+    text-align: center;
+  }
+  section#help p {
+    text-align: center;
+  }
+  section#help .help_btn {
+    padding: 10px 20px;
+    font-size: 18px;
+    margin: 0 auto;
+    display: block;
+  }
+  section#portfolio .section_header h2 {
+    margin-bottom: 40px;
+  }
+  section#portfolio .fotorama {
+    height: 30%;
+    width: 280px;
+    margin: 0 auto;
+  }
+  section#offeer h4 {
+    text-align: center;
+    font-size: 22px;
+  }
+  section#offeer h3 {
+    text-align: center;
+  }
+  section#offeer p {
+    text-align: center;
+  }
+  section#offeer input[name="name"] {
+    margin-bottom: 5px;
+  }
+  section#offeer input[name="phone"] {
+    margin-bottom: 15px;
+  }
+  section#offeer button[type="submit"] {
+    padding: 10px 60px;
+  }
+  section#feedback .fotorama {
+    display: none;
+  }
+  section#feedback .item {
+    height: 500px;
+    text-align: center;
+  }
+  section#feedback .item p {
+    font-size: 15px;
+  }
+  footer#contacts {
+    text-align: center;
+  }
+  footer#contacts .bottom_footer .text-left,
+  footer#contacts .bottom_footer .text-right {
+    text-align: center;
+  }
+  footer#contacts .social .icon_img {
+    margin-left: 10px;
+    padding: 14px;
+    width: 49px;
+    height: 49px;
+    margin-bottom: 15px;
+  }
+  /*==========================  МОДАЛЬНЫЕ ОКНА  ========================*/
+  .modal-header .close {
+    margin-right: -15px;
+  }
+  #more_horizontal,
+  #more_vertical,
+  #more_rolled,
+  #more_pleated,
+  #policy {
+    padding-left: 0px !important;
+  }
+  #more_horizontal button,
+  #more_vertical button,
+  #more_rolled button,
+  #more_pleated button,
+  #policy button {
+    padding: 10px 40px;
+  }
+  #more_horizontal .modal-header .close,
+  #more_vertical .modal-header .close,
+  #more_rolled .modal-header .close,
+  #more_pleated .modal-header .close,
+  #policy .modal-header .close {
+    margin-right: -55px;
+  }
+  #more_horizontal .modal-header,
+  #more_vertical .modal-header,
+  #more_rolled .modal-header,
+  #more_pleated .modal-header,
+  #policy .modal-header {
+    margin-top: -50px;
+  }
+}
+@media (min-width: 321px) and (max-width: 480px) {
+  nav.visible-xs {
+    background-color: #f5f6f5;
+    height: 60px;
+    top: 0;
+  }
+  nav.visible-xs h3 {
+    font-family: 'PFDinTextCondProBold';
+    color: #666666;
+    font-size: 18px;
+    text-align: right;
+  }
+  nav.visible-xs h3 a {
+    color: #666666;
+  }
+  section#main .main_header h1 {
+    font-size: 20px;
+    line-height: 36px;
+    text-align: center;
+  }
+  section#main .main_header span {
+    padding: 15px;
+  }
+  section#main h3 {
+    text-align: center;
+    font-size: 18px;
+    padding-top: 20px;
+  }
+  section#main .main_buttons button {
+    margin: 0 auto;
+    display: block;
+  }
+  section#main .main_buttons button#get_measurer {
+    padding: 15px 35px;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  section#main .main_buttons button#get_types {
+    padding: 15px 45px;
+    font-size: 16px;
+    margin: 0 auto;
+    display: block;
+  }
+  section#types button.more_btn {
+    margin-right: 0;
+    margin-bottom: 5px;
+  }
+  section#types button.offer_btn {
+    padding: 10px 26px;
+  }
+  section#help h3 {
+    text-align: center;
+  }
+  section#help p {
+    text-align: center;
+  }
+  section#help .help_btn {
+    padding: 10px 20px;
+    font-size: 18px;
+    margin: 0 auto;
+    display: block;
+  }
+  section#portfolio .section_header h2 {
+    margin-bottom: 40px;
+  }
+  section#portfolio .fotorama {
+    height: 30%;
+    width: 280px;
+    margin: 0 auto;
+  }
+  section#offeer h4 {
+    text-align: center;
+    font-size: 22px;
+  }
+  section#offeer h3 {
+    text-align: center;
+  }
+  section#offeer p {
+    text-align: center;
+  }
+  section#offeer input[name="name"] {
+    margin-bottom: 5px;
+  }
+  section#offeer input[name="phone"] {
+    margin-bottom: 15px;
+  }
+  section#offeer button[type="submit"] {
+    padding: 10px 0;
+    width: 100%;
+  }
+  section#feedback .fotorama {
+    display: none;
+  }
+  section#feedback .item {
+    height: 500px;
+    text-align: center;
+  }
+  section#feedback .item p {
+    font-size: 15px;
+  }
+  footer#contacts {
+    text-align: center;
+  }
+  footer#contacts .bottom_footer .text-left,
+  footer#contacts .bottom_footer .text-right {
+    text-align: center;
+  }
+  footer#contacts .social .icon_img {
+    margin-left: 10px;
+    padding: 14px;
+    width: 49px;
+    height: 49px;
+    margin-bottom: 15px;
+  }
+  /*==========================  МОДАЛЬНЫЕ ОКНА  ========================*/
+  .modal-header .close {
+    margin-right: -15px;
+  }
+  #more_horizontal,
+  #more_vertical,
+  #more_rolled,
+  #more_pleated,
+  #policy {
+    padding-left: 0px !important;
+  }
+  #more_horizontal #get_modal,
+  #more_vertical #get_modal,
+  #more_rolled #get_modal,
+  #more_pleated #get_modal,
+  #policy #get_modal {
+    padding: 10px 0;
+    width: 100% ;
+  }
+  #more_horizontal .modal-header .close,
+  #more_vertical .modal-header .close,
+  #more_rolled .modal-header .close,
+  #more_pleated .modal-header .close,
+  #policy .modal-header .close {
+    margin-right: -15px;
+  }
+  #more_horizontal .modal-header,
+  #more_vertical .modal-header,
+  #more_rolled .modal-header,
+  #more_pleated .modal-header,
+  #policy .modal-header {
+    margin-top: -50px;
+  }
+  #more_horizontal .modal-content button[type="submit"],
+  #more_vertical .modal-content button[type="submit"],
+  #more_rolled .modal-content button[type="submit"],
+  #more_pleated .modal-content button[type="submit"],
+  #policy .modal-content button[type="submit"] {
+    width: 100%;
+  }
+}
+@media (min-width: 481px) and (max-width: 768px) {
+  nav.visible-ms ul li {
+    color: #666666;
+  }
+  nav.visible-ms ul li .dropdown-menu {
+    min-width: 250px;
+    min-height: 185px;
+    font-size: 16px;
+  }
+  nav.visible-xs {
+    background-color: #f5f6f5;
+    height: 60px;
+    top: 0;
+    color: #666666;
+  }
+  nav.visible-xs h3 {
+    font-family: 'PFDinTextCondProBold';
+    color: #666666;
+    font-size: 18px;
+    text-align: right;
+  }
+  nav.visible-xs h3 a {
+    color: #666666;
+  }
+  section#main .main_header h1 {
+    font-size: 20px;
+    line-height: 36px;
+    text-align: center;
+  }
+  section#main .main_header span {
+    padding: 15px;
+  }
+  section#main h3 {
+    text-align: center;
+    font-size: 18px;
+    padding-top: 20px;
+  }
+  section#main .main_buttons button {
+    margin: 0 auto;
+    display: block;
+  }
+  section#main .main_buttons button#get_measurer {
+    padding: 15px 35px;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  section#main .main_buttons button#get_types {
+    padding: 15px 45px;
+    font-size: 16px;
+    margin: 0 auto;
+    display: block;
+  }
+  section#types .card {
+    width: 100%;
+  }
+  section#types button.more_btn {
+    margin-right: 0;
+    margin-bottom: 5px;
+  }
+  section#types button.offer_btn {
+    padding: 10px 26px;
+  }
+  section#help h3 {
+    text-align: center;
+  }
+  section#help p {
+    text-align: center;
+  }
+  section#help .help_btn {
+    padding: 10px 20px;
+    font-size: 18px;
+    margin: 0 auto;
+    display: block;
+  }
+  section#portfolio .section_header h2 {
+    margin-bottom: 40px;
+  }
+  section#portfolio .fotorama {
+    height: 30%;
+    width: 480px;
+    margin: 0 auto;
+  }
+  section#offeer h4 {
+    text-align: center;
+    font-size: 22px;
+  }
+  section#offeer h3 {
+    text-align: center;
+  }
+  section#offeer p {
+    text-align: center;
+  }
+  section#offeer input[name="name"] {
+    width: 70%;
+    margin: 0 auto 5px auto;
+  }
+  section#offeer input[name="phone"] {
+    margin: 0 auto 15px auto;
+    width: 70%;
+  }
+  section#offeer button[type="submit"] {
+    padding: 10px 0;
+    width: 70%;
+    margin: 0 auto;
+    display: block;
+  }
+  section#feedback .fotorama {
+    display: none;
+  }
+  section#feedback .item {
+    height: 350px;
+    text-align: center;
+  }
+  section#feedback .item p {
+    font-size: 16px;
+  }
+  footer#contacts {
+    text-align: center;
+  }
+  footer#contacts .bottom_footer .text-left,
+  footer#contacts .bottom_footer .text-right {
+    text-align: center;
+  }
+  footer#contacts .social .icon_img {
+    margin-left: 10px;
+    padding: 14px;
+    width: 49px;
+    height: 49px;
+    margin-bottom: 15px;
+  }
+  /*==========================  МОДАЛЬНЫЕ ОКНА  ========================*/
+  .modal-header .close {
+    margin-right: -15px;
+  }
+  #more_horizontal,
+  #more_vertical,
+  #more_rolled,
+  #more_pleated,
+  #policy {
+    padding-left: 0px !important;
+  }
+  #more_horizontal #get_modal,
+  #more_vertical #get_modal,
+  #more_rolled #get_modal,
+  #more_pleated #get_modal,
+  #policy #get_modal {
+    padding: 10px 0;
+    width: 100% ;
+  }
+  #more_horizontal .modal-header .close,
+  #more_vertical .modal-header .close,
+  #more_rolled .modal-header .close,
+  #more_pleated .modal-header .close,
+  #policy .modal-header .close {
+    margin-right: -15px;
+  }
+  #more_horizontal .modal-header,
+  #more_vertical .modal-header,
+  #more_rolled .modal-header,
+  #more_pleated .modal-header,
+  #policy .modal-header {
+    margin-top: -50px;
+  }
+  #more_horizontal .modal-content button[type="submit"],
+  #more_vertical .modal-content button[type="submit"],
+  #more_rolled .modal-content button[type="submit"],
+  #more_pleated .modal-content button[type="submit"],
+  #policy .modal-content button[type="submit"] {
+    width: 100%;
+  }
+}
+@media (min-width: 769px) and (max-width: 992px) {
+  header .descript h4 {
+    font-size: 16px;
+  }
+  header .phone_number h3 {
+    font-size: 16px;
+  }
+  section#help .help_btn {
+    padding: 13px 20px;
+    font-size: 20px;
+  }
+  section#portfolio .section_header h2 {
+    margin-bottom: 40px;
+  }
+  section#portfolio .fotorama {
+    height: 30%;
+    width: 90%;
+    margin: 0 auto;
+  }
+  section#offeer {
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  section#offeer button[type="submit"] {
+    font-size: 14px;
+    padding: 14px 47px;
+  }
+  section#offeer h4 {
+    text-align: center;
+    font-size: 25px;
+  }
+  section#feedback .item {
+    height: 400px;
+  }
+  footer button {
+    padding: 10px 25px;
+    font-size: 15px;
+  }
+  footer address,
+  footer .phone_footer {
+    margin-left: 30px;
+  }
+  footer h2,
+  footer .social {
+    margin-left: 17px;
+  }
+  footer .bottom_footer .policy {
+    font-size: 18px;
+  }
+  /*==========================  МОДАЛЬНЫЕ ОКНА  ========================*/
+  .modal-lg p {
+    font-size: 15px;
+  }
+  .modal-content button[type="submit"] {
+    width: 100%;
+  }
+}
+@media (min-width: 993px) and (max-width: 1200px) {
+  section#types button.more_btn {
+    margin: 10px 0 5px 0;
+    padding: 10px 18px;
+  }
+  section#types button.offer_btn {
+    margin-right: 0;
+    padding: 10px 22px;
+  }
+  section#help .help_btn {
+    padding: 13px 20px;
+  }
+  section#offeer {
+    margin-bottom: 50px;
+  }
+  section#offeer h4 {
+    font-size: 25px;
+  }
+  section#offeer button {
+    font-size: 14px !important;
+    padding: 14px 40px !important;
+  }
+}

@@ -1,0 +1,568 @@
+.dropdown-menu li a {
+  font-family: 'PFDinTextCondProLight';
+}
+.dropdown-toggle {
+  border: 1px solid #000;
+  padding: 10px 15px;
+  margin-top: 10px;
+  border-radius: 5px;
+  color: #666;
+  margin-left: -15px;
+}
+.dropdown-toggle i {
+  font-size: 18px;
+  margin-top: 15px;
+  color: #666666;
+}
+@media (min-width: 0px) and (max-width: 320px) {
+  nav.visible-xs {
+    background-color: #f5f6f5;
+    height: 60px;
+    top: 0;
+  }
+  nav.visible-xs h3 {
+    font-family: 'PFDinTextCondProBold';
+    color: #666666;
+    font-size: 14px;
+    text-align: right;
+  }
+  nav.visible-xs h3 a {
+    color: #666666;
+  }
+  section#main .main_header h1 {
+    font-size: 16px;
+    line-height: 33px;
+    text-align: center;
+  }
+  section#main .main_header span {
+    padding: 15px;
+  }
+  section#main h3 {
+    text-align: center;
+    font-size: 15px;
+    padding-top: 30px;
+  }
+  section#main .main_buttons button {
+    margin: 0 auto;
+    display: block;
+  }
+  section#main .main_buttons button#get_measurer {
+    padding: 10px 15px;
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+  section#main .main_buttons button#get_types {
+    padding: 10px 23px;
+    font-size: 12px;
+    margin: 0 auto;
+    display: block;
+  }
+  section#types button.more_btn {
+    margin-right: 0;
+    margin-bottom: 5px;
+  }
+  section#types button.offer_btn {
+    padding: 10px 26px;
+  }
+  section#help h3 {
+    text-align: center;
+  }
+  section#help p {
+    text-align: center;
+  }
+  section#help .help_btn {
+    padding: 10px 20px;
+    font-size: 18px;
+    margin: 0 auto;
+    display: block;
+  }
+  section#portfolio .section_header h2 {
+    margin-bottom: 40px;
+  }
+  section#portfolio .fotorama {
+    height: 30%;
+    width: 280px;
+    margin: 0 auto;
+  }
+  section#offeer h4 {
+    text-align: center;
+    font-size: 22px;
+  }
+  section#offeer h3 {
+    text-align: center;
+  }
+  section#offeer p {
+    text-align: center;
+  }
+  section#offeer input[name="name"] {
+    margin-bottom: 5px;
+  }
+  section#offeer input[name="phone"] {
+    margin-bottom: 15px;
+  }
+  section#offeer button[type="submit"] {
+    padding: 10px 60px;
+  }
+  section#feedback .fotorama {
+    display: none;
+  }
+  section#feedback .item {
+    height: 500px;
+    text-align: center;
+  }
+  section#feedback .item p {
+    font-size: 15px;
+  }
+  footer#contacts {
+    text-align: center;
+  }
+  footer#contacts .bottom_footer .text-left,
+  footer#contacts .bottom_footer .text-right {
+    text-align: center;
+  }
+  footer#contacts .social .icon_img {
+    margin-left: 10px;
+    padding: 14px;
+    width: 49px;
+    height: 49px;
+    margin-bottom: 15px;
+  }
+  /*==========================  МОДАЛЬНЫЕ ОКНА  ========================*/
+  .modal-header .close {
+    margin-right: -15px;
+  }
+  #more_horizontal,
+  #more_vertical,
+  #more_rolled,
+  #more_pleated,
+  #policy {
+    padding-left: 0px !important;
+  }
+  #more_horizontal button,
+  #more_vertical button,
+  #more_rolled button,
+  #more_pleated button,
+  #policy button {
+    padding: 10px 40px;
+  }
+  #more_horizontal .modal-header .close,
+  #more_vertical .modal-header .close,
+  #more_rolled .modal-header .close,
+  #more_pleated .modal-header .close,
+  #policy .modal-header .close {
+    margin-right: -55px;
+  }
+  #more_horizontal .modal-header,
+  #more_vertical .modal-header,
+  #more_rolled .modal-header,
+  #more_pleated .modal-header,
+  #policy .modal-header {
+    margin-top: -50px;
+  }
+}
+@media (min-width: 321px) and (max-width: 480px) {
+  nav.visible-xs {
+    background-color: #f5f6f5;
+    height: 60px;
+    top: 0;
+  }
+  nav.visible-xs h3 {
+    font-family: 'PFDinTextCondProBold';
+    color: #666666;
+    font-size: 18px;
+    text-align: right;
+  }
+  nav.visible-xs h3 a {
+    color: #666666;
+  }
+  section#main .main_header h1 {
+    font-size: 20px;
+    line-height: 36px;
+    text-align: center;
+  }
+  section#main .main_header span {
+    padding: 15px;
+  }
+  section#main h3 {
+    text-align: center;
+    font-size: 18px;
+    padding-top: 20px;
+  }
+  section#main .main_buttons button {
+    margin: 0 auto;
+    display: block;
+  }
+  section#main .main_buttons button#get_measurer {
+    padding: 15px 35px;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  section#main .main_buttons button#get_types {
+    padding: 15px 45px;
+    font-size: 16px;
+    margin: 0 auto;
+    display: block;
+  }
+  section#types button.more_btn {
+    margin-right: 0;
+    margin-bottom: 5px;
+  }
+  section#types button.offer_btn {
+    padding: 10px 26px;
+  }
+  section#help h3 {
+    text-align: center;
+  }
+  section#help p {
+    text-align: center;
+  }
+  section#help .help_btn {
+    padding: 10px 20px;
+    font-size: 18px;
+    margin: 0 auto;
+    display: block;
+  }
+  section#portfolio .section_header h2 {
+    margin-bottom: 40px;
+  }
+  section#portfolio .fotorama {
+    height: 30%;
+    width: 280px;
+    margin: 0 auto;
+  }
+  section#offeer h4 {
+    text-align: center;
+    font-size: 22px;
+  }
+  section#offeer h3 {
+    text-align: center;
+  }
+  section#offeer p {
+    text-align: center;
+  }
+  section#offeer input[name="name"] {
+    margin-bottom: 5px;
+  }
+  section#offeer input[name="phone"] {
+    margin-bottom: 15px;
+  }
+  section#offeer button[type="submit"] {
+    padding: 10px 0;
+    width: 100%;
+  }
+  section#feedback .fotorama {
+    display: none;
+  }
+  section#feedback .item {
+    height: 500px;
+    text-align: center;
+  }
+  section#feedback .item p {
+    font-size: 15px;
+  }
+  footer#contacts {
+    text-align: center;
+  }
+  footer#contacts .bottom_footer .text-left,
+  footer#contacts .bottom_footer .text-right {
+    text-align: center;
+  }
+  footer#contacts .social .icon_img {
+    margin-left: 10px;
+    padding: 14px;
+    width: 49px;
+    height: 49px;
+    margin-bottom: 15px;
+  }
+  /*==========================  МОДАЛЬНЫЕ ОКНА  ========================*/
+  .modal-header .close {
+    margin-right: -15px;
+  }
+  #more_horizontal,
+  #more_vertical,
+  #more_rolled,
+  #more_pleated,
+  #policy {
+    padding-left: 0px !important;
+  }
+  #more_horizontal #get_modal,
+  #more_vertical #get_modal,
+  #more_rolled #get_modal,
+  #more_pleated #get_modal,
+  #policy #get_modal {
+    padding: 10px 0;
+    width: 100% ;
+  }
+  #more_horizontal .modal-header .close,
+  #more_vertical .modal-header .close,
+  #more_rolled .modal-header .close,
+  #more_pleated .modal-header .close,
+  #policy .modal-header .close {
+    margin-right: -15px;
+  }
+  #more_horizontal .modal-header,
+  #more_vertical .modal-header,
+  #more_rolled .modal-header,
+  #more_pleated .modal-header,
+  #policy .modal-header {
+    margin-top: -50px;
+  }
+  #more_horizontal .modal-content button[type="submit"],
+  #more_vertical .modal-content button[type="submit"],
+  #more_rolled .modal-content button[type="submit"],
+  #more_pleated .modal-content button[type="submit"],
+  #policy .modal-content button[type="submit"] {
+    width: 100%;
+  }
+}
+@media (min-width: 481px) and (max-width: 768px) {
+  nav.visible-ms ul li {
+    color: #666666;
+  }
+  nav.visible-ms ul li .dropdown-menu {
+    min-width: 250px;
+    min-height: 185px;
+    font-size: 16px;
+  }
+  nav.visible-xs {
+    background-color: #f5f6f5;
+    height: 60px;
+    top: 0;
+    color: #666666;
+  }
+  nav.visible-xs h3 {
+    font-family: 'PFDinTextCondProBold';
+    color: #666666;
+    font-size: 18px;
+    text-align: right;
+  }
+  nav.visible-xs h3 a {
+    color: #666666;
+  }
+  section#main .main_header h1 {
+    font-size: 20px;
+    line-height: 36px;
+    text-align: center;
+  }
+  section#main .main_header span {
+    padding: 15px;
+  }
+  section#main h3 {
+    text-align: center;
+    font-size: 18px;
+    padding-top: 20px;
+  }
+  section#main .main_buttons button {
+    margin: 0 auto;
+    display: block;
+  }
+  section#main .main_buttons button#get_measurer {
+    padding: 15px 35px;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  section#main .main_buttons button#get_types {
+    padding: 15px 45px;
+    font-size: 16px;
+    margin: 0 auto;
+    display: block;
+  }
+  section#types .card {
+    width: 100%;
+  }
+  section#types button.more_btn {
+    margin-right: 0;
+    margin-bottom: 5px;
+  }
+  section#types button.offer_btn {
+    padding: 10px 26px;
+  }
+  section#help h3 {
+    text-align: center;
+  }
+  section#help p {
+    text-align: center;
+  }
+  section#help .help_btn {
+    padding: 10px 20px;
+    font-size: 18px;
+    margin: 0 auto;
+    display: block;
+  }
+  section#portfolio .section_header h2 {
+    margin-bottom: 40px;
+  }
+  section#portfolio .fotorama {
+    height: 30%;
+    width: 480px;
+    margin: 0 auto;
+  }
+  section#offeer h4 {
+    text-align: center;
+    font-size: 22px;
+  }
+  section#offeer h3 {
+    text-align: center;
+  }
+  section#offeer p {
+    text-align: center;
+  }
+  section#offeer input[name="name"] {
+    width: 70%;
+    margin: 0 auto 5px auto;
+  }
+  section#offeer input[name="phone"] {
+    margin: 0 auto 15px auto;
+    width: 70%;
+  }
+  section#offeer button[type="submit"] {
+    padding: 10px 0;
+    width: 70%;
+    margin: 0 auto;
+    display: block;
+  }
+  section#feedback .fotorama {
+    display: none;
+  }
+  section#feedback .item {
+    height: 350px;
+    text-align: center;
+  }
+  section#feedback .item p {
+    font-size: 16px;
+  }
+  footer#contacts {
+    text-align: center;
+  }
+  footer#contacts .bottom_footer .text-left,
+  footer#contacts .bottom_footer .text-right {
+    text-align: center;
+  }
+  footer#contacts .social .icon_img {
+    margin-left: 10px;
+    padding: 14px;
+    width: 49px;
+    height: 49px;
+    margin-bottom: 15px;
+  }
+  /*==========================  МОДАЛЬНЫЕ ОКНА  ========================*/
+  .modal-header .close {
+    margin-right: -15px;
+  }
+  #more_horizontal,
+  #more_vertical,
+  #more_rolled,
+  #more_pleated,
+  #policy {
+    padding-left: 0px !important;
+  }
+  #more_horizontal #get_modal,
+  #more_vertical #get_modal,
+  #more_rolled #get_modal,
+  #more_pleated #get_modal,
+  #policy #get_modal {
+    padding: 10px 0;
+    width: 100% ;
+  }
+  #more_horizontal .modal-header .close,
+  #more_vertical .modal-header .close,
+  #more_rolled .modal-header .close,
+  #more_pleated .modal-header .close,
+  #policy .modal-header .close {
+    margin-right: -15px;
+  }
+  #more_horizontal .modal-header,
+  #more_vertical .modal-header,
+  #more_rolled .modal-header,
+  #more_pleated .modal-header,
+  #policy .modal-header {
+    margin-top: -50px;
+  }
+  #more_horizontal .modal-content button[type="submit"],
+  #more_vertical .modal-content button[type="submit"],
+  #more_rolled .modal-content button[type="submit"],
+  #more_pleated .modal-content button[type="submit"],
+  #policy .modal-content button[type="submit"] {
+    width: 100%;
+  }
+}
+@media (min-width: 769px) and (max-width: 992px) {
+  header .descript h4 {
+    font-size: 16px;
+  }
+  header .phone_number h3 {
+    font-size: 16px;
+  }
+  section#help .help_btn {
+    padding: 13px 20px;
+    font-size: 20px;
+  }
+  section#portfolio .section_header h2 {
+    margin-bottom: 40px;
+  }
+  section#portfolio .fotorama {
+    height: 30%;
+    width: 90%;
+    margin: 0 auto;
+  }
+  section#offeer {
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  section#offeer button[type="submit"] {
+    font-size: 14px;
+    padding: 14px 47px;
+  }
+  section#offeer h4 {
+    text-align: center;
+    font-size: 25px;
+  }
+  section#feedback .item {
+    height: 400px;
+  }
+  footer button {
+    padding: 10px 25px;
+    font-size: 15px;
+  }
+  footer address,
+  footer .phone_footer {
+    margin-left: 30px;
+  }
+  footer h2,
+  footer .social {
+    margin-left: 17px;
+  }
+  footer .bottom_footer .policy {
+    font-size: 18px;
+  }
+  /*==========================  МОДАЛЬНЫЕ ОКНА  ========================*/
+  .modal-lg p {
+    font-size: 15px;
+  }
+  .modal-content button[type="submit"] {
+    width: 100%;
+  }
+}
+@media (min-width: 993px) and (max-width: 1200px) {
+  section#types button.more_btn {
+    margin: 10px 0 5px 0;
+    padding: 10px 18px;
+  }
+  section#types button.offer_btn {
+    margin-right: 0;
+    padding: 10px 22px;
+  }
+  section#help .help_btn {
+    padding: 13px 20px;
+  }
+  section#offeer {
+    margin-bottom: 50px;
+  }
+  section#offeer h4 {
+    font-size: 25px;
+  }
+  section#offeer button {
+    font-size: 14px !important;
+    padding: 14px 40px !important;
+  }
+}

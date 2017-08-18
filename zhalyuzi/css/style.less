@@ -1,0 +1,666 @@
+/*=============================    ШРИФТЫ    ==========================*/
+@font-face {
+    font-family: 'PFDinTextCondProBold';
+    src: url('fonts/PFDinTextCondProBold.eot');
+    src: url('fonts/PFDinTextCondProBold.eot') format('embedded-opentype'),
+         url('fonts/PFDinTextCondProBold.woff2') format('woff2'),
+         url('fonts/PFDinTextCondProBold.woff') format('woff'),
+         url('fonts/PFDinTextCondProBold.ttf') format('truetype'),
+         url('fonts/PFDinTextCondProBold.svg#PFDinTextCondProBold') format('svg');
+}
+@font-face {
+    font-family: 'PFDinTextCondProLight';
+    src: url('fonts/PFDinTextCondProLight.eot');
+    src: url('fonts/PFDinTextCondProLight.eot') format('embedded-opentype'),
+         url('fonts/PFDinTextCondProLight.woff2') format('woff2'),
+         url('fonts/PFDinTextCondProLight.woff') format('woff'),
+         url('fonts/PFDinTextCondProLight.ttf') format('truetype'),
+         url('fonts/PFDinTextCondProLight.svg#PFDinTextCondProLight') format('svg');
+}
+@font-face {
+    font-family: 'PFDinTextCondProMedium';
+    src: url('fonts/PFDinTextCondProMedium.eot');
+    src: url('fonts/PFDinTextCondProMedium.eot') format('embedded-opentype'),
+         url('fonts/PFDinTextCondProMedium.woff2') format('woff2'),
+         url('fonts/PFDinTextCondProMedium.woff') format('woff'),
+         url('fonts/PFDinTextCondProMedium.ttf') format('truetype'),
+         url('fonts/PFDinTextCondProMedium.svg#PFDinTextCondProMedium') format('svg');
+}
+
+.bold {
+	font-family: 'PFDinTextCondProBold';
+} 
+.med {
+	font-family: 'PFDinTextCondProMedium';
+}
+.light {
+	font-family: 'PFDinTextCondProLight';
+}
+/*==========================   ОБЩИЕ НАСТРОЙКИ    ========================*/
+a:hover,
+a:focus,
+a:active,
+a:visited {
+	text-decoration: none;
+}
+.section_header h2 {
+    text-transform: uppercase;
+    color: #666666;
+    .bold;
+}
+button:focus {
+    outline: none;
+}
+/*=============================    ШАПКА   ==========================*/
+header {
+    color: #666666;
+    padding-top: 25px;
+    height: 110px;
+	.descript {
+		h4 {
+			.med;
+			text-transform: uppercase;
+		}
+        h5 {
+            .light;
+            font-size: 16px;
+        }
+	}
+    .phone_number  {
+    	h5 {
+    		.light;
+    	}
+        h3 {
+            margin-top: 5px;
+        }
+        a {
+            display: inline-block;
+            .med;
+            color: #666666;
+            &:hover {
+                text-decoration: none;
+            }
+            &:visited {
+            	color: #666666;
+            }
+            &:before {
+            	margin-right: 5px;
+            	margin-top: -5px;
+            	vertical-align: middle;
+                content:'';
+                width: 20px;
+                height: 20px;
+                background: url(../img/phone_icon.png) no-repeat center center;
+                display: inline-block;
+            }
+        }
+    }
+}
+/*==========================    НАВИГАЦИЯ    =======================*/
+nav {	
+	background: #fafdfa;
+	ul.list-inline a {
+        text-transform: uppercase;
+		display:inline-block;
+		color: #666666;
+		padding: 20px 10px;
+		.light;
+			-moz-transition: all 0.2s 0.02s ease;
+		 	-o-transition: all 0.2s 0.02s ease;
+ 			-webkit-transition: all 0.2s 0.02s ease;
+ 			color:#222;
+
+
+
+		&:hover {
+		color: #666666;
+		background: #67cc67;
+	}
+
+	}
+	.list-inline {
+		margin-bottom: 0;
+	}
+        top: 110px; /*высота шапки в пикселях*/
+        position: fixed;
+        z-index: 100;
+        width: 100%;
+        height: 60px;
+}
+/*==========================   ГЛАВНОЕ МЕНЮ   =======================*/
+section#main {
+	background: url(../img/main_bg_1920.jpg) no-repeat center center;
+	background-size: cover;
+
+	.main_header h1 {
+		font-size: 38px;
+        line-height: 60px;
+		.bold;
+		padding-top: 100px;
+		color: #ffffff;
+		text-transform: uppercase;
+			span {
+					background: #67cc67;
+					padding: 5px;
+					color: #ffffff;
+
+		}
+	}
+	h3 {
+		text-transform: uppercase;
+		color: #666666;
+		.bold;
+		padding-top: 90px;
+	}
+	span {
+		color: #ff9933;
+	}
+	.main_buttons {
+		margin-top: 7px;
+        margin-bottom: 100px;
+        button#get_measurer {
+            .bold;
+            border: none;
+            text-transform: uppercase;
+            font-size: 20px;
+            background-color: #ff9933;
+            padding: 17px 30px;
+            color: white;
+            &:hover {
+                background-color: #f8820c;
+            }
+        }
+        button#get_types {
+            border: 2px solid #ff9933;
+            background-color: transparent;
+            padding: 15px 33px;
+            color: #ff9933;
+            .bold;
+            text-transform: uppercase;
+            font-size: 20px;
+            margin-left: 20px;
+            &:hover {
+                background-color: rgba(255, 255, 255, 0.7);
+
+            }
+        }
+	}
+}
+/*===========================  ВИДЫ ЖАЛЮЗИ    =======================*/
+section#types {
+    padding-top: 50px;
+
+    .section_header {
+        margin-bottom: 50px;
+    }
+    h4 {
+        text-transform: uppercase;
+        .med;
+        color: #666666;
+        margin-top: 25px;
+
+    }
+    button.more_btn {
+        .bold;
+        border: 2px solid #66cc66;
+        background-color: transparent;
+        color: #66cc66;
+        padding: 10px 22px;
+        text-transform: uppercase;
+        margin-right: 5px;
+            -moz-transition: all 0.2s 0.02s ease;
+            -o-transition: all 0.2s 0.02s ease;
+            -webkit-transition: all 0.2s 0.02s ease;
+            
+        &:hover {
+            background: #66cc66;
+            color: white;
+        }
+    }
+    button.offer_btn {
+        .bold;
+        border: 2px solid #66cc66;
+        background-color: #66cc66;
+        color: white;
+        padding: 10px 27px;
+        text-transform: uppercase;
+            -moz-transition: all 0.2s 0.02s ease;
+            -o-transition: all 0.2s 0.02s ease;
+            -webkit-transition: all 0.2s 0.02s ease;
+            
+        &:hover {
+            background: transparent;
+            color: #66cc66;
+        }
+    }
+    .card {
+        padding: 8px;
+        border: 2px solid transparent;
+        &:hover {
+            background-color: #fafdfa;
+            border: 2px solid #b2e5b2;
+        }
+    }
+}
+/*================ БЕСПЛАТНАЯ КОНСУЛЬТАЦИЯ  =====================*/
+section#help {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    h3 {
+        color: #ff9933;
+        .bold;
+        text-transform: uppercase;
+    }
+    p {
+        color: #666666;
+        .light;
+        font-size: 18px;
+    }
+    img {
+        margin-top: 22px;
+    }
+    .help_btn {
+        background-color: transparent;
+        border: 2px solid #ff9933;
+        .bold;
+        padding: 17px 30px;
+        text-transform: uppercase;
+        color: #ff9933;
+        font-size: 25px;
+        &:hover {
+            background-color: #ff9933;
+            color: white;
+        }
+    }
+}
+/*===========================  ПОРТФОЛИО    =======================*/
+section#portfolio {
+    .section_header h2 {
+        margin-bottom: 40px;
+    }
+    .fotorama { 
+        width: 900px;
+        margin: 0 auto; 
+    }
+}
+
+/*==========================   АКЦИЯ   ========================*/
+section#offeer {
+    padding-top: 70px;
+    h4 {
+        text-transform: uppercase;
+        .bold;
+        color: #ff9933;
+    }
+    h3 {
+        text-transform: uppercase;
+        .bold;
+        color: #ff9933;
+    }
+    p {
+        .light;
+        color: #666666;
+        padding-bottom: 15px;
+        font-size: 22px;
+    }
+    input[name="name"] {
+        font-size: 20px;
+        background: url(../img/name_input.png) no-repeat center left 10px;
+        padding: 25px;
+        border-radius: 0;
+        padding-left: 30px;
+        border: 1px solid #cccccc;
+        .light;
+        opacity: 0.5;
+        &:hover,
+        &:focus {
+            opacity: 1;
+            
+        }
+    }
+    input[name="phone"] {
+        font-size: 20px;
+        background: url(../img/phone_input.png) no-repeat center left 13px;
+        padding: 25px;
+        border-radius: 0;
+        padding-left: 30px;
+        border: 1px solid #cccccc;
+        .light;
+        opacity: 0.5;
+        &:hover,
+        &:focus {
+            opacity: 1;
+       } 
+   }
+   button[type="submit"] {
+    text-transform: uppercase;
+    .bold;
+    font-size: 20px;
+    background-color: #ff9933;
+    color: white;
+    border: 2px solid #ff9933;
+    padding: 10px 45px;
+   }
+}
+/*===========================  ОТЗЫВЫ    =======================*/
+section#feedback {
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+    background-color: #fcfcfc;
+    .carousel-indicators {
+        bottom: -50px;
+    }
+    .carousel-indicators .active {
+        background-color: #66cc66;
+    }
+    .carousel-indicators li {
+        background-color: #cccccc;
+    }
+    .section_header h2 {
+        margin-bottom: 50px;
+    }
+    .item {
+        height: 350px;
+        background-color: #f8f8f8;
+        padding: 20px;
+        h5 {
+            margin-top: 10px;
+            color: #666666;
+            .med;
+            font-size: 20px;
+        }
+        a {
+            .light;
+            font-size: 17px;
+        }
+        p {
+            .light;
+            font-size: 17px;
+        }
+        .audio {
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+    }
+}
+
+/*==========================   ФУТЕР    ========================*/
+footer {
+    background-color: #666666;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    color: white;
+    button {
+            -moz-transition: all 0.2s 0.02s ease;
+            -o-transition: all 0.2s 0.02s ease;
+            -webkit-transition: all 0.2s 0.02s ease;
+        margin-left: 10px;
+        border: 2px solid white;
+        background: transparent;
+        .bold;
+        text-transform: uppercase;
+        padding: 12px 35px;
+        font-size: 20px;
+        &:hover {
+                background-color: white;
+                color: #666666;
+            }
+    }
+    .social {
+        margin-top: 20px;
+    }
+    .icon_img {
+        display:inline-block;
+        background-color: #cccccc;
+        padding: 10px;
+        border-radius: 50%;
+        width: 39px;
+        height: 39px;
+        padding-top: 8px;
+        vertical-align: super;
+        margin-right: 5px;
+        &:hover {
+            background-color: #fff;
+        }
+
+    }
+    h2 {
+        margin-bottom: 20px;
+        .bold;
+        text-transform: uppercase;
+        margin-left: -15px;
+    }
+    address #kazan {
+        font-size: 20px;
+    }
+    address p {
+        .light;
+        margin-bottom: 0;
+
+    }
+    address #address {
+        text-transform: uppercase;
+        color: #b4b4b4;
+        &:before {
+            content:'';
+            background: url(../img/map_marker.png) no-repeat center center;
+            display: inline-block;
+            width: 11px;
+            height: 11px;
+        }
+    }
+    .phone_footer p {
+        .light;
+        margin-bottom: 0;
+    }
+    .phone_footer #number {
+        margin-bottom: 20px;
+        font-size: 20px;
+    }
+    .phone_footer #phone_footer {
+        text-transform: uppercase;
+        color: #b4b4b4;
+        &:before {
+            content:'';
+            background: url(../img/phone_marker.png) no-repeat center center;
+            display: inline-block;
+            width: 11px;
+            height: 11px;
+        }
+    }
+    .details {
+        h5 {
+            .med;
+            font-size: 20px;
+            margin-bottom: 25px;
+        }
+        p {
+            .light;
+            font-size: 17px;
+            color: #b4b4b4;
+        }
+    }
+    .policy {
+        .light;
+        color: #b4b4b4;
+        a {
+            font-size: 20px;
+            border-bottom: 1px solid #cccccc;
+            color: #b4b4b4;
+        }
+        p {
+            font-size: 15px;
+        }
+    }
+    .saigushev {
+        .bold;
+        font-size: 20px;
+        h4 {
+            text-transform: uppercase;
+        }
+        a {
+            color: #b4b4b4;
+        }
+    }
+    .bottom_footer {
+        margin-top: 50px;
+    }
+
+}
+/*=========================  ВСПЛЫВАЮЩИЕ ОКНА  ========================*/
+    .modal-dialog {
+        margin-top: 10%;
+    }
+    .header_modal h4 {
+        color: #666666;
+        text-transform: uppercase;
+        .bold;
+    }
+    .modal-header {
+        border-bottom: none;
+        margin-top: -40px;
+        .close {
+            text-shadow: none;
+            color: #fff;
+            opacity: 0.9;
+            margin-right: -30px;
+        }
+    }
+    .modal-content {
+        border-radius: 0;
+        input[name="name"] {
+            margin-top: 15px;
+            font-size: 20px;
+            background: url(../img/name_input.png) no-repeat center left 10px;
+            padding: 25px;
+            border-radius: 0;
+            padding-left: 30px;
+            border: 1px solid #cccccc;
+            .light;
+            opacity: 0.5;
+            &:hover,
+            &:focus {
+                opacity: 1;
+            }
+        }
+        input[name="phone"] {
+            margin-top: 15px;
+            font-size: 20px;
+            background: url(../img/phone_input.png) no-repeat center left 13px;
+            padding: 25px;
+            border-radius: 0;
+            padding-left: 30px;
+            border: 1px solid #cccccc;
+            .light;
+            opacity: 0.5;
+            &:hover,
+            &:focus {
+                opacity: 1;
+            } 
+        }
+        p {
+            .light;
+            font-size: 18px;
+        }
+        h5 {
+            .bold;
+            font-size: 24px;
+            color: #ff9933;
+        }
+        button[type="submit"] {
+            margin-top: 15px;
+            text-transform: uppercase;
+            .bold;
+            font-size: 20px;
+            background-color: #ff9933;
+            color: white;
+            border: 2px solid #ff9933;
+            padding: 10px 49px;
+        }
+    }
+    .header_modal_info {
+        h4 {
+            .bold;
+            text-transform: uppercase;
+            color: #666666;
+            margin-top: 0px;
+            margin-left: 20px;
+        }
+        
+    }
+    .fotorama .fotorama__dot {
+        background: #cccccc ;
+        border: none;
+        width: 10px;
+        height: 10px;
+        &:hover,
+        &:active,
+        &:visited,
+        &:focus,
+        &:checked
+         {
+            background: #66cc66;
+            width: 11px;
+            height: 11px;
+            color: #66cc66;
+        }
+    }
+    .fotorama__active .fotorama__dot {
+        background: #66cc66;
+        border: 5px solid #66cc66;
+        border-width: 5px;
+        
+    }
+    .fotorama__nav__frame.fotorama__active .fotorama__dot {
+    width: 0 !important;
+    height: 0 !important;
+    border-width: 5px !important;
+}
+    textarea {
+
+        margin-top: 15px;
+        font-size: 20px;
+        padding: 25px;
+        border-radius: 0;
+        padding-left: 30px;
+        border: 1px solid #cccccc;
+        .light;
+        opacity: 0.5;
+        &:hover,
+        &:focus {
+            opacity: 1;
+            } 
+    }
+    .modal_title {
+    margin-top: 50px;
+    .med;
+    color: black;
+    text-transform: uppercase;
+}
+    .policy_modal {
+        p {
+            .light;
+            padding-left: 30px;
+            padding-right: 20px;
+        }
+        h4 {
+            padding-left: 55px;
+            padding-right: 20px; 
+        }
+    }
+    .modal-footer {
+        .light;
+    }
+/*==========================   ШРИФТЫ    ========================*/
+
+/*==========================   ШРИФТЫ    ========================*/
+
+/*==========================   ШРИФТЫ    ========================*/
+
+/*==========================   ШРИФТЫ    ========================*/
+
+/*==========================   ШРИФТЫ    ========================*/
+
+/*==========================   АДАПТИВ   ========================*/
+
+@import "media.less";
